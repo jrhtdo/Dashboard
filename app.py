@@ -33,6 +33,7 @@ app = Dash(__name__)
 # Define layout
 app.layout = html.Div([
     html.H1("Company Performance Dashboard"),
+    html.H2("Apple financial report by Mukadas Yusuf"),
 
     dcc.Tabs([
         dcc.Tab(label='Sales Overview', children=[
